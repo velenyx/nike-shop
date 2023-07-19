@@ -12,7 +12,8 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    node: true
+    node: true,
+    jest: true
   },
   overrides: [
     {
@@ -30,6 +31,7 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
+    'react/display-name': 'off',
     '@typescript-eslint/no-shadow': 0,
     '@typescript-eslint/consistent-type-imports': [
       'error',
@@ -89,5 +91,8 @@ module.exports = {
         }
       }
     ]
+  },
+  globals: {
+    ReactTagProps: true
   }
 };
