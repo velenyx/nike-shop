@@ -1,5 +1,4 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import React from 'react';
 
 import type { ButtonProps } from './Button';
 import { Button, BUTTON_TEST_IDS } from './Button';
@@ -44,7 +43,7 @@ describe('Button', () => {
     expect(endIcon).toBeInTheDocument();
   });
   test('should render loading spinner when loading prop is true', () => {
-    const { getByTestId } = render(<Button {...defaultProps} loading={true} />);
+    const { getByTestId } = render(<Button {...defaultProps} loading />);
     const loader = getByTestId(BUTTON_TEST_IDS.LOADER);
     expect(loader).toBeInTheDocument();
   });

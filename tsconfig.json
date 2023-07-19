@@ -45,7 +45,7 @@
         "src/components"
       ],
       "@/ui/icons": [
-        "src/components/common/icons"
+        "src/components/icons"
       ],
       "@/.storybook": [
         ".storybook/*"
@@ -61,7 +61,8 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    ".eslintrc.cjs"
   ],
   "exclude": [
     "node_modules"

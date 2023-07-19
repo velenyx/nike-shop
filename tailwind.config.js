@@ -9,7 +9,7 @@ module.exports = {
         sono: ['Sono', 'sans-serif']
       },
       colors: {
-        white: '#ffffff',
+        white: '#fff',
         secondary: '#ccc',
         primary: '#111',
         grey: '#757575',

@@ -1,4 +1,5 @@
-import '../styles/globals.css';
+import '../assets/styles/global.css';
+import '../assets/styles/fonts.css';
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -56,7 +57,8 @@ export const decorators = [
         justifyContent: 'start',
         alignItems: 'start',
         flexDirection: 'column',
-        gap: '20px'
+        gap: '20px',
+        color: '#000'
       }}
     >
       <Story />

@@ -5,16 +5,10 @@ import { Button } from './Button';
 
 const buttonProps: ButtonProps = {
   children: 'Button',
-  loading: true,
+  loading: false,
   size: 'medium',
   variant: 'contained'
 };
-
-export default {
-  component: Button,
-  tags: ['autodocs'],
-  title: 'ui/button'
-} as Meta<typeof Button>;
 
 const ButtonTemplate: StoryFn<typeof Button> = (args) => <Button {...args} />;
 
@@ -26,3 +20,12 @@ Contained.args = { ...buttonProps, variant: 'contained' };
 
 export const Outlined: StoryFn<typeof Button> = ButtonTemplate.bind({});
 Outlined.args = { ...buttonProps, variant: 'outlined' };
+
+export const Loading: StoryFn<typeof Button> = ButtonTemplate.bind({});
+Loading.args = { ...buttonProps, loading: true };
+
+export default {
+  component: Button,
+  tags: ['autodocs'],
+  title: 'ui/button'
+} as Meta<typeof Button>;
