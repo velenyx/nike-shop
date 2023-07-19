@@ -1,7 +1,8 @@
 @font-face {
     font-family: 'Helvetica Neue';
     src: url('HelveticaNeueBoldCondensed.eot');
-    src: local('Helvetica Neue Condensed Bold'), local('HelveticaNeueBoldCondensed'),
+    src: local('Helvetica Neue Condensed Bold'),
+    local('HelveticaNeueBoldCondensed'),
     url('HelveticaNeueBoldCondensed.eot?#iefix') format('embedded-opentype'),
     url('HelveticaNeueBoldCondensed.woff2') format('woff2'),
     url('HelveticaNeueBoldCondensed.woff') format('woff'),
@@ -13,7 +14,8 @@
 @font-face {
     font-family: 'Helvetica Neue';
     src: url('HelveticaNeueBlackCondensed.eot');
-    src: local('Helvetica Neue Condensed Black'), local('HelveticaNeueBlackCondensed'),
+    src: local('Helvetica Neue Condensed Black'),
+    local('HelveticaNeueBlackCondensed'),
     url('HelveticaNeueBlackCondensed.eot?#iefix') format('embedded-opentype'),
     url('HelveticaNeueBlackCondensed.woff2') format('woff2'),
     url('HelveticaNeueBlackCondensed.woff') format('woff'),
